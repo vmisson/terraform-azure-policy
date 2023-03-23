@@ -2,7 +2,7 @@
 # Management Organization
 # Root Management Group
 # -> Contoso
-# |--> Plaform
+# |--> Platform
 # |  |--> Identity
 # |  |--> Management
 # |  |--> Connectivity

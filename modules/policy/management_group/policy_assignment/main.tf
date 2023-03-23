@@ -11,4 +11,6 @@ resource "azurerm_management_group_policy_assignment" "this" {
   management_group_id  = var.management_group_id
   policy_definition_id = data.azurerm_policy_definition.this.id
   display_name         = "${var.management_group_name} - ${var.policy_definition_name}"
+  parameters           = var.parameters
+  enforce              = var.enforce
 }

@@ -9,3 +9,13 @@ variable "management_group_id" {
 variable "management_group_name" {
   type = string
 }
+
+variable "parameters" {
+  type    = string
+  default = null
+}
+
+variable "enforce" {
+  type    = bool
+  default = true
+}
